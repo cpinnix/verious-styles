@@ -24,52 +24,52 @@
   }
 }
 
-.vs-h1 {
+.vs-heading--1 {
   @include vs-heading(6);
 }
 
-.vs-h2 {
+.vs-heading--2 {
   @include vs-heading(5);
 }
 
-.vs-h3 {
+.vs-heading--3 {
   @include vs-heading(4);
 }
 
-.vs-h4 {
+.vs-heading--4 {
   @include vs-heading(3);
 }
 
-.vs-h5 {
+.vs-heading--5 {
   @include vs-heading(2);
 }
 
-.vs-h6 {
+.vs-heading--6 {
   @include vs-heading(1);
 }
 
 .verious {
-  .vs-h1 {
+  .vs-heading--1 {
     @include vs-heading(6);
   }
 
-  .vs-h2 {
+  .vs-heading--2 {
     @include vs-heading(5);
   }
 
-  .vs-h3 {
+  .vs-heading--3 {
     @include vs-heading(4);
   }
 
-  .vs-h4 {
+  .vs-heading--4 {
     @include vs-heading(3);
   }
 
-  .vs-h5 {
+  .vs-heading--5 {
     @include vs-heading(2);
   }
 
-  .vs-h6 {
+  .vs-heading--6 {
     @include vs-heading(1);
   }
 }

@@ -1,3 +1,17 @@
 @mixin vs-html() {
-  @include vs-font-size(4);
+  @include vs-at-breakpoint(xs) {
+    font-size: 8px;
+  }
+  @include vs-at-breakpoint(sm) {
+    font-size: 8px;
+  }
+  @include vs-at-breakpoint(md) {
+    font-size: 8px;
+  }
+  @include vs-at-breakpoint(lg) {
+    font-size: 10px;
+  }
+  @include vs-at-breakpoint(xl) {
+    font-size: 10px;
+  }
 }

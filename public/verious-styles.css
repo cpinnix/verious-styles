@@ -35122,184 +35122,235 @@ textarea,
   .vs-hidden-xl {
     display: none; } }
 
-.vs-html {
-  font-size: 1.5rem; }
+@media all and (min-width: 0) and (max-width: 575px) {
+  .vs-html {
+    font-size: 8px; } }
+
+@media all and (min-width: 576px) and (max-width: 767px) {
+  .vs-html {
+    font-size: 8px; } }
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .vs-html {
+    font-size: 8px; } }
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .vs-html {
+    font-size: 10px; } }
+
+@media all and (min-width: 1200px) {
+  .vs-html {
+    font-size: 10px; } }
 
 .vs-text--1 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
-  font-size: 0.444rem;
-  line-height: 0.6rem; }
+  font-size: 1.28rem;
+  line-height: 1.6; }
 
 .vs-text--2 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
-  font-size: 0.667rem;
-  line-height: 0.9rem; }
+  font-size: 1.6rem;
+  line-height: 1.6; }
 
 .vs-text--3 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.4rem; }
+  font-size: 2rem;
+  line-height: 1.6; }
 
 .vs-text--4 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
-  font-size: 1.5rem;
-  line-height: 1.8rem; }
+  font-size: 2.5rem;
+  line-height: 1.4; }
 
 .vs-text--5 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
-  font-size: 2.25rem;
-  line-height: 2.6rem; }
+  font-size: 3.126rem;
+  line-height: 1.3; }
 
 .vs-text--6 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
-  font-size: 3.375rem;
-  line-height: 3.8rem; }
+  font-size: 3.906rem;
+  line-height: 1.3; }
 
 .vs-text--7 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
-  font-size: 5.063rem;
-  line-height: 5.4rem; }
+  font-size: 4.882rem;
+  line-height: 1; }
 
 .vs-text--8 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
-  font-size: 7.594rem;
-  line-height: 9rem; }
+  font-size: 6.104rem;
+  line-height: 1; }
 
 .vs-text--9 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
-  font-size: 11.391rem;
-  line-height: 14rem; }
+  font-size: 7.63rem;
+  line-height: 1; }
 
 .vs-text--10 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
-  font-size: 17.086rem;
-  line-height: 20rem; }
+  font-size: 9.536rem;
+  line-height: 1; }
 
 .verious h1 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
-  font-size: 11.391rem;
-  line-height: 14rem; }
+  font-size: 6.104rem;
+  line-height: 1;
+  margin-top: 6rem;
+  margin-bottom: 6rem; }
 
 .verious h2 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
-  font-size: 7.594rem;
-  line-height: 9rem; }
+  font-size: 4.882rem;
+  line-height: 1;
+  margin-top: 5rem;
+  margin-bottom: 5rem; }
 
 .verious h3 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
-  font-size: 5.063rem;
-  line-height: 5.4rem; }
+  font-size: 3.906rem;
+  line-height: 1.3;
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
 
 .verious h4 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
-  font-size: 3.375rem;
-  line-height: 3.8rem; }
+  font-size: 3.126rem;
+  line-height: 1.3;
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
 
 .verious h5 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
-  font-size: 2.25rem;
-  line-height: 2.6rem; }
+  font-size: 2.5rem;
+  line-height: 1.4;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
 
 .verious h6 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
-  font-size: 1.5rem;
-  line-height: 1.8rem; }
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
 
-.vs-h1 {
+.vs-heading--1 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
-  font-size: 11.391rem;
-  line-height: 14rem; }
+  font-size: 6.104rem;
+  line-height: 1;
+  margin-top: 6rem;
+  margin-bottom: 6rem; }
 
-.vs-h2 {
+.vs-heading--2 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
-  font-size: 7.594rem;
-  line-height: 9rem; }
+  font-size: 4.882rem;
+  line-height: 1;
+  margin-top: 5rem;
+  margin-bottom: 5rem; }
 
-.vs-h3 {
+.vs-heading--3 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
-  font-size: 5.063rem;
-  line-height: 5.4rem; }
+  font-size: 3.906rem;
+  line-height: 1.3;
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
 
-.vs-h4 {
+.vs-heading--4 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
-  font-size: 3.375rem;
-  line-height: 3.8rem; }
+  font-size: 3.126rem;
+  line-height: 1.3;
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
 
-.vs-h5 {
+.vs-heading--5 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
-  font-size: 2.25rem;
-  line-height: 2.6rem; }
+  font-size: 2.5rem;
+  line-height: 1.4;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
 
-.vs-h6 {
+.vs-heading--6 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
-  font-size: 1.5rem;
-  line-height: 1.8rem; }
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
 
-.verious .vs-h1 {
+.verious .vs-heading--1 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
-  font-size: 11.391rem;
-  line-height: 14rem; }
+  font-size: 6.104rem;
+  line-height: 1;
+  margin-top: 6rem;
+  margin-bottom: 6rem; }
 
-.verious .vs-h2 {
+.verious .vs-heading--2 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
-  font-size: 7.594rem;
-  line-height: 9rem; }
+  font-size: 4.882rem;
+  line-height: 1;
+  margin-top: 5rem;
+  margin-bottom: 5rem; }
 
-.verious .vs-h3 {
+.verious .vs-heading--3 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
-  font-size: 5.063rem;
-  line-height: 5.4rem; }
+  font-size: 3.906rem;
+  line-height: 1.3;
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
 
-.verious .vs-h4 {
+.verious .vs-heading--4 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
-  font-size: 3.375rem;
-  line-height: 3.8rem; }
+  font-size: 3.126rem;
+  line-height: 1.3;
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
 
-.verious .vs-h5 {
+.verious .vs-heading--5 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
-  font-size: 2.25rem;
-  line-height: 2.6rem; }
+  font-size: 2.5rem;
+  line-height: 1.4;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
 
-.verious .vs-h6 {
+.verious .vs-heading--6 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
-  font-size: 1.5rem;
-  line-height: 1.8rem; }
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
 
 .verious p {
-  font-style: normal;
-  font-weight: normal;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
-  font-size: 0.667rem;
-  line-height: 1.8rem;
+  font-size: 2rem;
+  line-height: 1.6;
   margin-bottom: 1rem; }
   .verious p a {
     display: inline;
@@ -35307,26 +35358,24 @@ textarea,
     .verious p a:visited {
       color: inherit; }
 
-.vs-p {
-  font-style: normal;
-  font-weight: normal;
+.vs-paragraph {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
-  font-size: 0.667rem;
-  line-height: 1.8rem;
+  font-size: 2rem;
+  line-height: 1.6;
   margin-bottom: 1rem; }
-  .vs-p a {
+  .vs-paragraph a {
     display: inline;
     color: inherit; }
-    .vs-p a:visited {
+    .vs-paragraph a:visited {
       color: inherit; }
 
 .verious a {
   display: inline-block;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
-  font-size: 0.444rem;
-  line-height: 1.8rem;
+  font-size: 1.28rem;
+  line-height: 1.4;
   font-style: normal; }
   .verious a:visited {
     color: inherit; }
@@ -35335,8 +35384,8 @@ textarea,
   display: inline-block;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
-  font-size: 0.444rem;
-  line-height: 1.8rem;
+  font-size: 1.28rem;
+  line-height: 1.4;
   font-style: normal; }
   .vs-a:visited {
     color: inherit; }
@@ -35364,14 +35413,14 @@ textarea,
 .verious li {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
-  font-size: 0.444rem;
-  line-height: 1.8rem; }
+  font-size: 1.28rem;
+  line-height: 1.4; }
   .verious li a {
     display: inline;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 400;
-    font-size: 0.444rem;
-    line-height: 1.8rem;
+    font-size: 1.28rem;
+    line-height: 1.4;
     text-decoration: none;
     color: inherit; }
     .verious li a:visited {
@@ -35398,14 +35447,14 @@ textarea,
 .verious .vs-li {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
-  font-size: 0.444rem;
-  line-height: 1.8rem; }
+  font-size: 1.28rem;
+  line-height: 1.4; }
   .verious .vs-li a {
     display: inline;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 400;
-    font-size: 0.444rem;
-    line-height: 1.8rem;
+    font-size: 1.28rem;
+    line-height: 1.4;
     text-decoration: none;
     color: inherit; }
     .verious .vs-li a:visited {
@@ -35442,14 +35491,14 @@ textarea,
 .vs-li {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
-  font-size: 0.444rem;
-  line-height: 1.8rem; }
+  font-size: 1.28rem;
+  line-height: 1.4; }
   .vs-li a {
     display: inline;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 400;
-    font-size: 0.444rem;
-    line-height: 1.8rem;
+    font-size: 1.28rem;
+    line-height: 1.4;
     text-decoration: none;
     color: inherit; }
     .vs-li a:visited {
@@ -35467,8 +35516,8 @@ textarea,
   font-style: normal;
   font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;;
   font-weight: 400;
-  line-height: 9rem;
-  font-size: 1.5rem; }
+  line-height: 1;
+  font-size: 2.5rem; }
 
 .vs-pre {
   overflow: auto;
@@ -35480,8 +35529,8 @@ textarea,
   font-style: normal;
   font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;;
   font-weight: 400;
-  line-height: 9rem;
-  font-size: 1.5rem; }
+  line-height: 1;
+  font-size: 2.5rem; }
 
 .verious blockquote {
   zoom: 1;
@@ -35546,7 +35595,7 @@ textarea,
 .vs-button {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
-  font-size: 0.444rem;
+  font-size: 1.28rem;
   line-height: 3rem;
   height: 3rem;
   padding-left: 1rem;
