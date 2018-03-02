@@ -1,135 +1,135 @@
 @for $i from 1 through 96 {
-  .vs-padding-top-#{$i} {
+  .vs-padding-top--#{$i} {
     padding-top: $i * vs-spacing(1);
   }
 
-  .vs-padding-right-#{$i} {
+  .vs-padding-right--#{$i} {
     padding-right: $i * vs-spacing(1);
   }
 
-  .vs-padding-bottom-#{$i} {
+  .vs-padding-bottom--#{$i} {
     padding-bottom: $i * vs-spacing(1);
   }
 
-  .vs-padding-left-#{$i} {
+  .vs-padding-left--#{$i} {
     padding-left: $i * vs-spacing(1);
   }
 
-  .vs-padding-xs-top-#{$i} {
+  .vs-padding-xs-top--#{$i} {
     @include vs-at-breakpoint(xs) {
       padding-top: $i * vs-spacing(1);
     }
   }
 
-  .vs-padding-xs-right-#{$i} {
+  .vs-padding-xs-right--#{$i} {
     @include vs-at-breakpoint(xs) {
       padding-right: $i * vs-spacing(1);
     }
   }
 
-  .vs-padding-xs-bottom-#{$i} {
+  .vs-padding-xs-bottom--#{$i} {
     @include vs-at-breakpoint(xs) {
       padding-bottom: $i * vs-spacing(1);
     }
   }
 
-  .vs-padding-xs-left-#{$i} {
+  .vs-padding-xs-left--#{$i} {
     @include vs-at-breakpoint(xs) {
       padding-left: $i * vs-spacing(1);
     }
   }
 
-  .vs-padding-sm-top-#{$i} {
+  .vs-padding-sm-top--#{$i} {
     @include vs-at-breakpoint(sm) {
       padding-top: $i * vs-spacing(1);
     }
   }
 
-  .vs-padding-sm-right-#{$i} {
+  .vs-padding-sm-right--#{$i} {
     @include vs-at-breakpoint(sm) {
       padding-right: $i * vs-spacing(1);
     }
   }
 
-  .vs-padding-sm-bottom-#{$i} {
+  .vs-padding-sm-bottom--#{$i} {
     @include vs-at-breakpoint(sm) {
       padding-bottom: $i * vs-spacing(1);
     }
   }
 
-  .vs-padding-sm-left-#{$i} {
+  .vs-padding-sm-left--#{$i} {
     @include vs-at-breakpoint(sm) {
       padding-left: $i * vs-spacing(1);
     }
   }
 
-  .vs-padding-md-top-#{$i} {
+  .vs-padding-md-top--#{$i} {
     @include vs-at-breakpoint(md) {
       padding-top: $i * vs-spacing(1);
     }
   }
 
-  .vs-padding-md-right-#{$i} {
+  .vs-padding-md-right--#{$i} {
     @include vs-at-breakpoint(md) {
       padding-right: $i * vs-spacing(1);
     }
   }
 
-  .vs-padding-md-bottom-#{$i} {
+  .vs-padding-md-bottom--#{$i} {
     @include vs-at-breakpoint(md) {
       padding-bottom: $i * vs-spacing(1);
     }
   }
 
-  .vs-padding-md-left-#{$i} {
+  .vs-padding-md-left--#{$i} {
     @include vs-at-breakpoint(md) {
       padding-left: $i * vs-spacing(1);
     }
   }
 
-  .vs-padding-lg-top-#{$i} {
+  .vs-padding-lg-top--#{$i} {
     @include vs-at-breakpoint(lg) {
       padding-top: $i * vs-spacing(1);
     }
   }
 
-  .vs-padding-lg-right-#{$i} {
+  .vs-padding-lg-right--#{$i} {
     @include vs-at-breakpoint(lg) {
       padding-right: $i * vs-spacing(1);
     }
   }
 
-  .vs-padding-lg-bottom-#{$i} {
+  .vs-padding-lg-bottom--#{$i} {
     @include vs-at-breakpoint(lg) {
       padding-bottom: $i * vs-spacing(1);
     }
   }
 
-  .vs-padding-lg-left-#{$i} {
+  .vs-padding-lg-left--#{$i} {
     @include vs-at-breakpoint(lg) {
       padding-left: $i * vs-spacing(1);
     }
   }
 
-  .vs-padding-xl-top-#{$i} {
+  .vs-padding-xl-top--#{$i} {
     @include vs-at-breakpoint(xl) {
       padding-top: $i * vs-spacing(1);
     }
   }
 
-  .vs-padding-xl-right-#{$i} {
+  .vs-padding-xl-right--#{$i} {
     @include vs-at-breakpoint(xl) {
       padding-right: $i * vs-spacing(1);
     }
   }
 
-  .vs-padding-xl-bottom-#{$i} {
+  .vs-padding-xl-bottom--#{$i} {
     @include vs-at-breakpoint(xl) {
       padding-bottom: $i * vs-spacing(1);
     }
   }
 
-  .vs-padding-xl-left-#{$i} {
+  .vs-padding-xl-left--#{$i} {
     @include vs-at-breakpoint(xl) {
       padding-left: $i * vs-spacing(1);
     }

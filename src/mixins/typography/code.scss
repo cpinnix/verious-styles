@@ -7,7 +7,7 @@
 @mixin vs-code($size) {
   white-space: pre;
   font-style: normal;
+  line-height: 1;
   @include vs-font(mono);
-  @include vs-line-height($size * 2);
   @include vs-font-size($size);
 }
