@@ -2,28 +2,34 @@
   margin: 0 auto;
   @include vs-clearfix();
 
-  @include vs-at-breakpoint($vs-screen-xs) {
+  $vs-width-xs: 100%;
+  $vs-width-sm: 576px;
+  $vs-width-md: 768px;
+  $vs-width-lg: 992px;
+  $vs-width-xl: 1200px;
+
+  @include vs-at-breakpoint(xs) {
     width: $vs-width-xs;
-    padding: 0 page-margin($vs-screen-xs);
+    padding: 0 page-margin(xs);
   }
 
-  @include vs-at-breakpoint($vs-screen-sm) {
+  @include vs-at-breakpoint(sm) {
     width: $vs-width-sm;
-    padding: 0 page-margin($vs-screen-sm);
+    padding: 0 page-margin(sm);
   }
 
-  @include vs-at-breakpoint($vs-screen-md) {
+  @include vs-at-breakpoint(md) {
     width: $vs-width-md;
-    padding: 0 page-margin($vs-screen-md);
+    padding: 0 page-margin(md);
   }
 
-  @include vs-at-breakpoint($vs-screen-lg) {
+  @include vs-at-breakpoint(lg) {
     width: $vs-width-lg;
-    padding: 0 page-margin($vs-screen-lg);
+    padding: 0 page-margin(lg);
   }
 
-  @include vs-at-breakpoint($vs-screen-xl) {
+  @include vs-at-breakpoint(xl) {
     width: $vs-width-xl;
-    padding: 0 page-margin($vs-screen-xl);
+    padding: 0 page-margin(xl);
   }
 }

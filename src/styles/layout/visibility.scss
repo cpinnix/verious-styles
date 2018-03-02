@@ -14,23 +14,23 @@
 // ---------------------------------------------
 
 .vs-visible-xs {
-  @include vs-visible($vs-screen-xs);
+  @include vs-visible(xs);
 }
 
 .vs-visible-sm {
-  @include vs-visible($vs-screen-sm);
+  @include vs-visible(sm);
 }
 
 .vs-visible-md {
-  @include vs-visible($vs-screen-md);
+  @include vs-visible(md);
 }
 
 .vs-visible-lg {
-  @include vs-visible($vs-screen-lg);
+  @include vs-visible(lg);
 }
 
 .vs-visible-xl {
-  @include vs-visible($vs-screen-xl);
+  @include vs-visible(xl);
 }
 
 // ---------------------------------------------
@@ -38,21 +38,21 @@
 // ---------------------------------------------
 
 .vs-hidden-xs {
-  @include vs-hidden($vs-screen-xs);
+  @include vs-hidden(xs);
 }
 
 .vs-hidden-sm {
-  @include vs-hidden($vs-screen-sm);
+  @include vs-hidden(sm);
 }
 
 .vs-hidden-md {
-  @include vs-hidden($vs-screen-md);
+  @include vs-hidden(md);
 }
 
 .vs-hidden-lg {
-  @include vs-hidden($vs-screen-lg);
+  @include vs-hidden(lg);
 }
 
 .vs-hidden-xl {
-  @include vs-hidden($vs-screen-xl);
+  @include vs-hidden(xl);
 }

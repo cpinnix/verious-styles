@@ -1,4 +1,14 @@
-@mixin vs-at-breakpoint($viewport) {
+@mixin vs-at-breakpoint($key) {
+  $screens: (
+    xs: xs 0 575px,
+    sm: sm 576px 767px,
+    md: md 768px 991px,
+    lg: lg 992px 1199px,
+    xl: xl 1200px
+  );
+
+  $viewport: map-get($screens, $key);
+
   @if length($viewport) == 2 {
     @media all and (min-width: nth($viewport, 2)) {
       @content;

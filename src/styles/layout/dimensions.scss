@@ -4,31 +4,31 @@
   }
 
   .vs-width--xs-#{$i} {
-    @include vs-at-breakpoint($vs-screen-xs) {
+    @include vs-at-breakpoint(xs) {
       @include vs-width($i);
     }
   }
 
   .vs-width--sm-#{$i} {
-    @include vs-at-breakpoint($vs-screen-sm) {
+    @include vs-at-breakpoint(sm) {
       @include vs-width($i);
     }
   }
 
   .vs-width--md-#{$i} {
-    @include vs-at-breakpoint($vs-screen-md) {
+    @include vs-at-breakpoint(md) {
       @include vs-width($i);
     }
   }
 
   .vs-width--lg-#{$i} {
-    @include vs-at-breakpoint($vs-screen-lg) {
+    @include vs-at-breakpoint(lg) {
       @include vs-width($i);
     }
   }
 
   .vs-width--xl-#{$i} {
-    @include vs-at-breakpoint($vs-screen-xl) {
+    @include vs-at-breakpoint(xl) {
       @include vs-width($i);
     }
   }
@@ -40,31 +40,31 @@
   }
 
   .vs-height--xs-#{$i} {
-    @include vs-at-breakpoint($vs-screen-xs) {
+    @include vs-at-breakpoint(xs) {
       @include vs-height($i);
     }
   }
 
   .vs-height--sm-#{$i} {
-    @include vs-at-breakpoint($vs-screen-sm) {
+    @include vs-at-breakpoint(sm) {
       @include vs-height($i);
     }
   }
 
   .vs-height--md-#{$i} {
-    @include vs-at-breakpoint($vs-screen-md) {
+    @include vs-at-breakpoint(md) {
       @include vs-height($i);
     }
   }
 
   .vs-height--lg-#{$i} {
-    @include vs-at-breakpoint($vs-screen-lg) {
+    @include vs-at-breakpoint(lg) {
       @include vs-height($i);
     }
   }
 
   .vs-height--xl-#{$i} {
-    @include vs-at-breakpoint($vs-screen-xl) {
+    @include vs-at-breakpoint(xl) {
       @include vs-height($i);
     }
   }
