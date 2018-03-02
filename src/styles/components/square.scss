@@ -1,5 +1,6 @@
 @for $i from 1 through 96 {
   .vs-square--#{$i} {
-    @include vs-square($i);
+    @include vs-width($i);
+    @include vs-height($i);
   }
 }
