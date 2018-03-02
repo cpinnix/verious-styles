@@ -1,0 +1,17 @@
+.verious {
+  pre {
+    @include vs-pre();
+  }
+
+  code {
+    @include vs-code(4);
+  }
+}
+
+.vs-pre {
+  @include vs-pre();
+}
+
+.vs-code {
+  @include vs-code(4);
+}

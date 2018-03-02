@@ -1,0 +1,18 @@
+.vs-image {
+  &-image {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  &-source {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &-responsive {
+    @include vs-image-responsive();
+  }
+}

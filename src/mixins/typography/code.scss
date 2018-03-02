@@ -1,0 +1,13 @@
+@mixin vs-pre() {
+  overflow: auto;
+  white-space: inherit;
+  margin: 0;
+}
+
+@mixin vs-code($size) {
+  white-space: pre;
+  font-style: normal;
+  @include vs-font(mono);
+  @include vs-line-height($size * 2);
+  @include vs-font-size($size);
+}

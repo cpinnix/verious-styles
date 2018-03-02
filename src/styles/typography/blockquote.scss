@@ -1,0 +1,9 @@
+.verious {
+  blockquote {
+    @include vs-blockquote();
+  }
+}
+
+.vs-blockquote {
+  @include vs-blockquote();
+}

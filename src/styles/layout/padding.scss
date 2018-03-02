@@ -1,0 +1,137 @@
+@for $i from 1 through 96 {
+  .vs-padding-top-#{$i} {
+    padding-top: $i * vs-spacing(1);
+  }
+
+  .vs-padding-right-#{$i} {
+    padding-right: $i * vs-spacing(1);
+  }
+
+  .vs-padding-bottom-#{$i} {
+    padding-bottom: $i * vs-spacing(1);
+  }
+
+  .vs-padding-left-#{$i} {
+    padding-left: $i * vs-spacing(1);
+  }
+
+  .vs-padding-xs-top-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xs) {
+      padding-top: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-padding-xs-right-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xs) {
+      padding-right: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-padding-xs-bottom-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xs) {
+      padding-bottom: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-padding-xs-left-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xs) {
+      padding-left: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-padding-sm-top-#{$i} {
+    @include vs-at-breakpoint($vs-screen-sm) {
+      padding-top: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-padding-sm-right-#{$i} {
+    @include vs-at-breakpoint($vs-screen-sm) {
+      padding-right: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-padding-sm-bottom-#{$i} {
+    @include vs-at-breakpoint($vs-screen-sm) {
+      padding-bottom: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-padding-sm-left-#{$i} {
+    @include vs-at-breakpoint($vs-screen-sm) {
+      padding-left: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-padding-md-top-#{$i} {
+    @include vs-at-breakpoint($vs-screen-md) {
+      padding-top: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-padding-md-right-#{$i} {
+    @include vs-at-breakpoint($vs-screen-md) {
+      padding-right: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-padding-md-bottom-#{$i} {
+    @include vs-at-breakpoint($vs-screen-md) {
+      padding-bottom: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-padding-md-left-#{$i} {
+    @include vs-at-breakpoint($vs-screen-md) {
+      padding-left: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-padding-lg-top-#{$i} {
+    @include vs-at-breakpoint($vs-screen-lg) {
+      padding-top: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-padding-lg-right-#{$i} {
+    @include vs-at-breakpoint($vs-screen-lg) {
+      padding-right: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-padding-lg-bottom-#{$i} {
+    @include vs-at-breakpoint($vs-screen-lg) {
+      padding-bottom: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-padding-lg-left-#{$i} {
+    @include vs-at-breakpoint($vs-screen-lg) {
+      padding-left: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-padding-xl-top-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xl) {
+      padding-top: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-padding-xl-right-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xl) {
+      padding-right: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-padding-xl-bottom-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xl) {
+      padding-bottom: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-padding-xl-left-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xl) {
+      padding-left: $i * vs-spacing(1);
+    }
+  }
+}

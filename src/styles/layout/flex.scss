@@ -1,0 +1,237 @@
+.vs-flex {
+  @include vs-flex();
+}
+
+.vs-xs-flex {
+  @include vs-at-breakpoint($vs-screen-xs) {
+    @include vs-flex();
+  }
+}
+
+.vs-sm-flex {
+  @include vs-at-breakpoint($vs-screen-sm) {
+    @include vs-flex();
+  }
+}
+
+.vs-md-flex {
+  @include vs-at-breakpoint($vs-screen-md) {
+    @include vs-flex();
+  }
+}
+
+.vs-lg-flex {
+  @include vs-at-breakpoint($vs-screen-lg) {
+    @include vs-flex();
+  }
+}
+
+.vs-xl-flex {
+  @include vs-at-breakpoint($vs-screen-xl) {
+    @include vs-flex();
+  }
+}
+
+.vs-flex-direction-row {
+  @include vs-flex-direction(row);
+}
+
+.vs-xs-flex-direction-row {
+  @include vs-at-breakpoint($vs-screen-xs) {
+    @include vs-flex-direction(row);
+  }
+}
+
+.vs-sm-flex-direction-row {
+  @include vs-at-breakpoint($vs-screen-sm) {
+    @include vs-flex-direction(row);
+  }
+}
+
+.vs-md-flex-direction-row {
+  @include vs-at-breakpoint($vs-screen-md) {
+    @include vs-flex-direction(row);
+  }
+}
+
+.vs-lg-flex-direction-row {
+  @include vs-at-breakpoint($vs-screen-lg) {
+    @include vs-flex-direction(row);
+  }
+}
+
+.vs-xl-flex-direction-row {
+  @include vs-at-breakpoint($vs-screen-xl) {
+    @include vs-flex-direction(row);
+  }
+}
+
+.vs-flex-direction-row-reverse {
+  @include vs-flex-direction(row-reverse);
+}
+
+.vs-xs-flex-direction-row-reverse {
+  @include vs-at-breakpoint($vs-screen-xs) {
+    @include vs-flex-direction(row-reverse);
+  }
+}
+
+.vs-sm-flex-direction-row-reverse {
+  @include vs-at-breakpoint($vs-screen-sm) {
+    @include vs-flex-direction(row-reverse);
+  }
+}
+
+.vs-md-flex-direction-row-reverse {
+  @include vs-at-breakpoint($vs-screen-md) {
+    @include vs-flex-direction(row-reverse);
+  }
+}
+
+.vs-lg-flex-direction-row-reverse {
+  @include vs-at-breakpoint($vs-screen-lg) {
+    @include vs-flex-direction(row-reverse);
+  }
+}
+
+.vs-xl-flex-direction-row-reverse {
+  @include vs-at-breakpoint($vs-screen-xl) {
+    @include vs-flex-direction(row-reverse);
+  }
+}
+
+.vs-flex-direction-column {
+  @include vs-flex-direction(column);
+}
+
+.vs-xs-flex-direction-column {
+  @include vs-at-breakpoint($vs-screen-xs) {
+    @include vs-flex-direction(column);
+  }
+}
+
+.vs-sm-flex-direction-column {
+  @include vs-at-breakpoint($vs-screen-sm) {
+    @include vs-flex-direction(column);
+  }
+}
+
+.vs-md-flex-direction-column {
+  @include vs-at-breakpoint($vs-screen-md) {
+    @include vs-flex-direction(column);
+  }
+}
+
+.vs-lg-flex-direction-column {
+  @include vs-at-breakpoint($vs-screen-lg) {
+    @include vs-flex-direction(column);
+  }
+}
+
+.vs-xl-flex-direction-column {
+  @include vs-at-breakpoint($vs-screen-xl) {
+    @include vs-flex-direction(column);
+  }
+}
+
+.vs-flex-direction-column-reverse {
+  @include vs-flex-direction(column-reverse);
+}
+
+.vs-xs-flex-direction-column-reverse {
+  @include vs-at-breakpoint($vs-screen-xs) {
+    @include vs-flex-direction(column-reverse);
+  }
+}
+
+.vs-sm-flex-direction-column-reverse {
+  @include vs-at-breakpoint($vs-screen-sm) {
+    @include vs-flex-direction(column-reverse);
+  }
+}
+
+.vs-md-flex-direction-column-reverse {
+  @include vs-at-breakpoint($vs-screen-md) {
+    @include vs-flex-direction(column-reverse);
+  }
+}
+
+.vs-lg-flex-direction-column-reverse {
+  @include vs-at-breakpoint($vs-screen-lg) {
+    @include vs-flex-direction(column-reverse);
+  }
+}
+
+.vs-xl-flex-direction-column-reverse {
+  @include vs-at-breakpoint($vs-screen-xl) {
+    @include vs-flex-direction(column-reverse);
+  }
+}
+
+.vs-flex-justify-content-center {
+  @include vs-flex-justify-content(center);
+}
+
+.vs-xs-flex-justify-content-center {
+  @include vs-at-breakpoint($vs-screen-xs) {
+    @include vs-flex-justify-content(center);
+  }
+}
+
+.vs-sm-flex-justify-content-center {
+  @include vs-at-breakpoint($vs-screen-sm) {
+    @include vs-flex-justify-content(center);
+  }
+}
+
+.vs-md-flex-justify-content-center {
+  @include vs-at-breakpoint($vs-screen-md) {
+    @include vs-flex-justify-content(center);
+  }
+}
+
+.vs-lg-flex-justify-content-center {
+  @include vs-at-breakpoint($vs-screen-lg) {
+    @include vs-flex-justify-content(center);
+  }
+}
+
+.vs-xl-flex-justify-content-center {
+  @include vs-at-breakpoint($vs-screen-xl) {
+    @include vs-flex-justify-content(center);
+  }
+}
+
+.vs-flex-align-items-center {
+  @include vs-flex-align-items(center);
+}
+
+.vs-xs-flex-align-items-center {
+  @include vs-at-breakpoint($vs-screen-xs) {
+    @include vs-flex-align-items(center);
+  }
+}
+
+.vs-sm-flex-align-items-center {
+  @include vs-at-breakpoint($vs-screen-sm) {
+    @include vs-flex-align-items(center);
+  }
+}
+
+.vs-md-flex-align-items-center {
+  @include vs-at-breakpoint($vs-screen-md) {
+    @include vs-flex-align-items(center);
+  }
+}
+
+.vs-lg-flex-align-items-center {
+  @include vs-at-breakpoint($vs-screen-lg) {
+    @include vs-flex-align-items(center);
+  }
+}
+
+.vs-xl-flex-align-items-center {
+  @include vs-at-breakpoint($vs-screen-xl) {
+    @include vs-flex-align-items(center);
+  }
+}

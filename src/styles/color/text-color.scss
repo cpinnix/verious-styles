@@ -1,0 +1,12 @@
+@each $row in vs-colors() {
+  $key: nth($row, 1);
+  $value: vs-color($key);
+
+  .vs-text-color--#{$key} {
+    @include vs-text-color($value);
+
+    a {
+      @include vs-text-color($value);
+    }
+  }
+}

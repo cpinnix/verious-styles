@@ -1,0 +1,15 @@
+@mixin vs-paragraph($size) {
+  font-style: normal;
+  font-weight: normal;
+  @include vs-text(system, $size);
+  @include vs-margin(bottom, 1);
+
+  a {
+    display: inline;
+    color: inherit;
+
+    &:visited {
+      color: inherit;
+    }
+  }
+}

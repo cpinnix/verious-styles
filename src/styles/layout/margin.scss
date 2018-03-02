@@ -1,0 +1,138 @@
+@for $i from 1 through 96 {
+
+  .vs-margin-top-#{$i} {
+    @include vs-margin(top, $i);
+  }
+
+  .vs-margin-right-#{$i} {
+    @include vs-margin(right, $i);
+  }
+
+  .vs-margin-bottom-#{$i} {
+    @include vs-margin(bottom, $i);
+  }
+
+  .vs-margin-left-#{$i} {
+    @include vs-margin(left, $i);
+  }
+
+  .vs-margin-xs-top-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xs) {
+      margin-top: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-margin-xs-right-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xs) {
+      margin-right: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-margin-xs-bottom-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xs) {
+      margin-bottom: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-margin-xs-left-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xs) {
+      margin-left: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-margin-sm-top-#{$i} {
+    @include vs-at-breakpoint($vs-screen-sm) {
+      margin-top: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-margin-sm-right-#{$i} {
+    @include vs-at-breakpoint($vs-screen-sm) {
+      margin-right: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-margin-sm-bottom-#{$i} {
+    @include vs-at-breakpoint($vs-screen-sm) {
+      margin-bottom: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-margin-sm-left-#{$i} {
+    @include vs-at-breakpoint($vs-screen-sm) {
+      margin-left: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-margin-md-top-#{$i} {
+    @include vs-at-breakpoint($vs-screen-md) {
+      margin-top: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-margin-md-right-#{$i} {
+    @include vs-at-breakpoint($vs-screen-md) {
+      margin-right: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-margin-md-bottom-#{$i} {
+    @include vs-at-breakpoint($vs-screen-md) {
+      margin-bottom: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-margin-md-left-#{$i} {
+    @include vs-at-breakpoint($vs-screen-md) {
+      margin-left: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-margin-lg-top-#{$i} {
+    @include vs-at-breakpoint($vs-screen-lg) {
+      margin-top: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-margin-lg-right-#{$i} {
+    @include vs-at-breakpoint($vs-screen-lg) {
+      margin-right: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-margin-lg-bottom-#{$i} {
+    @include vs-at-breakpoint($vs-screen-lg) {
+      margin-bottom: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-margin-lg-left-#{$i} {
+    @include vs-at-breakpoint($vs-screen-lg) {
+      margin-left: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-margin-xl-top-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xl) {
+      margin-top: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-margin-xl-right-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xl) {
+      margin-right: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-margin-xl-bottom-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xl) {
+      margin-bottom: $i * vs-spacing(1);
+    }
+  }
+
+  .vs-margin-xl-left-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xl) {
+      margin-left: $i * vs-spacing(1);
+    }
+  }
+}

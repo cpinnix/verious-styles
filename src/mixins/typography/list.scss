@@ -1,0 +1,61 @@
+@mixin vs-list-item($size) {
+  @include vs-text(system, $size);
+
+  a {
+    display: inline;
+    @include vs-text(system, $size);
+    text-decoration: none;
+    color: inherit;
+
+    &:visited {
+      color: inherit;
+    }
+  }
+
+  > ul > li:first-child {
+    padding-top: 0;
+  }
+}
+
+@mixin vs-list() {
+  margin-left: 20px;
+  @include vs-margin(bottom, 2);
+
+  ul, ol {
+    margin-bottom: 0;
+  }
+
+  ul {
+    margin-left: 20px;
+  }
+
+  ol {
+    margin-left: 22px;
+  }
+}
+
+@mixin vs-ordered-list() {
+  margin-left: 22px;
+  @include vs-margin(bottom, 2);
+
+  ul, ol {
+    margin-bottom: 0;
+  }
+
+  ul {
+    margin-left: 20px;
+  }
+
+  ol {
+    margin-left: 22px;
+  }
+}
+
+@mixin vs-ul--unstyled() {
+  margin-left: 0;
+  list-style: none;
+
+  ul {
+    @include vs-margin(left, 2);
+  }
+}

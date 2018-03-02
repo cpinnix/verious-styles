@@ -1,0 +1,9 @@
+.verious {
+  p {
+    @include vs-paragraph(2);
+  }
+}
+
+.vs-p {
+  @include vs-paragraph(2);
+}

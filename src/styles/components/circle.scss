@@ -1,0 +1,11 @@
+.vs-circle {
+  position: relative;
+  display: table;
+  overflow: hidden;
+}
+
+@for $i from 1 through 96 {
+  .vs-circle--#{$i} {
+    @include vs-circle($i);
+  }
+}

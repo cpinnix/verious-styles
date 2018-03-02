@@ -1,0 +1,7 @@
+@for $i from 1 through 10 {
+  .vs-text--#{$i} {
+    @include vs-font(system);
+    @include vs-font-size($i);
+    @include vs-line-height($i);
+  }
+}

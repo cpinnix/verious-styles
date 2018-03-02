@@ -1,0 +1,8 @@
+@mixin vs-horizontal-scroll() {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+@mixin vs-horizontal-scroll-item() {
+  display: inline-block;
+}

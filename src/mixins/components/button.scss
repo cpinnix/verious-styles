@@ -1,0 +1,14 @@
+@mixin vs-button() {
+  @include vs-font(system);
+  @include vs-font-size(1);
+  line-height: vs-spacing(3);
+  height: vs-spacing(3);
+  @include vs-padding(left, 1);
+  @include vs-padding(right, 1);
+  border: 0;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}

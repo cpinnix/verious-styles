@@ -1,0 +1,9 @@
+@mixin vs-link($size) {
+  display: inline-block;
+  @include vs-text(system, $size);
+  font-style: normal;
+
+  &:visited {
+    color: inherit;
+  }
+}

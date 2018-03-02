@@ -1,0 +1,18 @@
+
+
+@mixin vs-line-height($n) {
+  $scale: (
+    0.6,
+    0.9,
+    1.4,
+    1.8,
+    2.6,
+    3.8,
+    5.4,
+    9,
+    14,
+    20
+  );
+
+  line-height: nth($scale, $n) + rem;
+}

@@ -1,0 +1,9 @@
+.verious {
+  a {
+    @include vs-link(1);
+  }
+}
+
+.vs-a {
+  @include vs-link(1);
+}
