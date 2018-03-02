@@ -1,41 +1,45 @@
 .verious {
   ul {
-    @include vs-list();
+    @include vs-list-unordered();
   }
 
   ol {
-    @include vs-ordered-list();
+    @include vs-list-ordered();
   }
 
   li {
     @include vs-list-item(1);
   }
 
-  .vs-ul {
+  .vs-list {
     @include vs-list();
   }
 
-  .vs-ul--unstyled {
-    @include vs-ul--unstyled();
+  .vs-list-unordered {
+    @include vs-list-unordered();
   }
 
-  .vs-li {
-    @include vs-list-item(1);
+  .vs-list-ordered {
+    @include vs-list-ordered();
+  }
+
+  .vs-list-item {
+    @include vs-list-item(3);
   }
 }
 
-.vs-ul {
+.vs-list {
   @include vs-list();
 }
 
-.vs-ol {
-  @include vs-ordered-list();
+.vs-list-unordered {
+  @include vs-list-unordered();
 }
 
-.vs-ul--unstyled {
-  @include vs-ul--unstyled();
+.vs-list-ordered {
+  @include vs-list-ordered();
 }
 
-.vs-li {
-  @include vs-list-item(1);
+.vs-list-item {
+  @include vs-list-item(3);
 }

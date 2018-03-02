@@ -35391,36 +35391,47 @@ textarea,
     color: inherit; }
 
 .verious ul {
-  margin-left: 20px;
+  margin: 0;
+  margin-left: 2rem;
+  padding: 0;
+  list-style: disc;
   margin-bottom: 2rem; }
-  .verious ul ul, .verious ul ol {
-    margin-bottom: 0; }
-  .verious ul ul {
-    margin-left: 20px; }
-  .verious ul ol {
-    margin-left: 22px; }
+  .verious ul .vs-list {
+    margin-left: 2rem; }
+  .verious ul ul,
+  .verious ul .vs-list-unordered {
+    margin-left: 2rem; }
+  .verious ul ol,
+  .verious ul .vs-list-ordered {
+    margin-left: 2rem; }
 
 .verious ol {
-  margin-left: 22px;
+  margin: 0;
+  margin-left: 2rem;
+  padding: 0;
+  list-style: decimal;
   margin-bottom: 2rem; }
-  .verious ol ul, .verious ol ol {
-    margin-bottom: 0; }
-  .verious ol ul {
-    margin-left: 20px; }
-  .verious ol ol {
-    margin-left: 22px; }
+  .verious ol .vs-list {
+    margin-left: 2rem; }
+  .verious ol ul,
+  .verious ol .vs-list-unordered {
+    margin-left: vs-margin(left, 2); }
+  .verious ol ol,
+  .verious ol .vs-list-ordered {
+    margin-left: vs-margin(left, 2); }
 
 .verious li {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
   font-size: 1.28rem;
-  line-height: 1.4; }
+  line-height: 1.6;
+  display: list-item; }
   .verious li a {
-    display: inline;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 400;
     font-size: 1.28rem;
-    line-height: 1.4;
+    line-height: 1.6;
+    display: inline;
     text-decoration: none;
     color: inherit; }
     .verious li a:visited {
@@ -35428,82 +35439,130 @@ textarea,
   .verious li > ul > li:first-child {
     padding-top: 0; }
 
-.verious .vs-ul {
-  margin-left: 20px;
+.verious .vs-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
   margin-bottom: 2rem; }
-  .verious .vs-ul ul, .verious .vs-ul ol {
-    margin-bottom: 0; }
-  .verious .vs-ul ul {
-    margin-left: 20px; }
-  .verious .vs-ul ol {
-    margin-left: 22px; }
+  .verious .vs-list .vs-list {
+    margin-left: 2rem; }
+  .verious .vs-list > ul,
+  .verious .vs-list > .vs-list-unordered {
+    margin-left: 4rem; }
+  .verious .vs-list > ol,
+  .verious .vs-list > .vs-list-ordered {
+    margin-left: 4rem; }
 
-.verious .vs-ul--unstyled {
-  margin-left: 0;
-  list-style: none; }
-  .verious .vs-ul--unstyled ul {
+.verious .vs-list-unordered {
+  margin: 0;
+  margin-left: 2rem;
+  padding: 0;
+  list-style: disc;
+  margin-bottom: 2rem; }
+  .verious .vs-list-unordered .vs-list {
+    margin-left: 2rem; }
+  .verious .vs-list-unordered ul,
+  .verious .vs-list-unordered .vs-list-unordered {
+    margin-left: 2rem; }
+  .verious .vs-list-unordered ol,
+  .verious .vs-list-unordered .vs-list-ordered {
     margin-left: 2rem; }
 
-.verious .vs-li {
+.verious .vs-list-ordered {
+  margin: 0;
+  margin-left: 2rem;
+  padding: 0;
+  list-style: decimal;
+  margin-bottom: 2rem; }
+  .verious .vs-list-ordered .vs-list {
+    margin-left: 2rem; }
+  .verious .vs-list-ordered ul,
+  .verious .vs-list-ordered .vs-list-unordered {
+    margin-left: vs-margin(left, 2); }
+  .verious .vs-list-ordered ol,
+  .verious .vs-list-ordered .vs-list-ordered {
+    margin-left: vs-margin(left, 2); }
+
+.verious .vs-list-item {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
-  font-size: 1.28rem;
-  line-height: 1.4; }
-  .verious .vs-li a {
-    display: inline;
+  font-size: 2rem;
+  line-height: 1.6;
+  display: list-item; }
+  .verious .vs-list-item a {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 400;
-    font-size: 1.28rem;
-    line-height: 1.4;
+    font-size: 2rem;
+    line-height: 1.6;
+    display: inline;
     text-decoration: none;
     color: inherit; }
-    .verious .vs-li a:visited {
+    .verious .vs-list-item a:visited {
       color: inherit; }
-  .verious .vs-li > ul > li:first-child {
+  .verious .vs-list-item > ul > li:first-child {
     padding-top: 0; }
 
-.vs-ul {
-  margin-left: 20px;
+.vs-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
   margin-bottom: 2rem; }
-  .vs-ul ul, .vs-ul ol {
-    margin-bottom: 0; }
-  .vs-ul ul {
-    margin-left: 20px; }
-  .vs-ul ol {
-    margin-left: 22px; }
+  .vs-list .vs-list {
+    margin-left: 2rem; }
+  .vs-list > ul,
+  .vs-list > .vs-list-unordered {
+    margin-left: 4rem; }
+  .vs-list > ol,
+  .vs-list > .vs-list-ordered {
+    margin-left: 4rem; }
 
-.vs-ol {
-  margin-left: 22px;
+.vs-list-unordered {
+  margin: 0;
+  margin-left: 2rem;
+  padding: 0;
+  list-style: disc;
   margin-bottom: 2rem; }
-  .vs-ol ul, .vs-ol ol {
-    margin-bottom: 0; }
-  .vs-ol ul {
-    margin-left: 20px; }
-  .vs-ol ol {
-    margin-left: 22px; }
-
-.vs-ul--unstyled {
-  margin-left: 0;
-  list-style: none; }
-  .vs-ul--unstyled ul {
+  .vs-list-unordered .vs-list {
+    margin-left: 2rem; }
+  .vs-list-unordered ul,
+  .vs-list-unordered .vs-list-unordered {
+    margin-left: 2rem; }
+  .vs-list-unordered ol,
+  .vs-list-unordered .vs-list-ordered {
     margin-left: 2rem; }
 
-.vs-li {
+.vs-list-ordered {
+  margin: 0;
+  margin-left: 2rem;
+  padding: 0;
+  list-style: decimal;
+  margin-bottom: 2rem; }
+  .vs-list-ordered .vs-list {
+    margin-left: 2rem; }
+  .vs-list-ordered ul,
+  .vs-list-ordered .vs-list-unordered {
+    margin-left: vs-margin(left, 2); }
+  .vs-list-ordered ol,
+  .vs-list-ordered .vs-list-ordered {
+    margin-left: vs-margin(left, 2); }
+
+.vs-list-item {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
-  font-size: 1.28rem;
-  line-height: 1.4; }
-  .vs-li a {
-    display: inline;
+  font-size: 2rem;
+  line-height: 1.6;
+  display: list-item; }
+  .vs-list-item a {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 400;
-    font-size: 1.28rem;
-    line-height: 1.4;
+    font-size: 2rem;
+    line-height: 1.6;
+    display: inline;
     text-decoration: none;
     color: inherit; }
-    .vs-li a:visited {
+    .vs-list-item a:visited {
       color: inherit; }
-  .vs-li > ul > li:first-child {
+  .vs-list-item > ul > li:first-child {
     padding-top: 0; }
 
 .verious pre {
