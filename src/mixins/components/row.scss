@@ -1,33 +1,5 @@
 @mixin vs-row() {
-  @include vs-clearfix();
-
-  @include vs-at-breakpoint(xs) {
-    $gutter: gutter(xs);
-    $margin: -$gutter / 2;
-    margin: 0 $margin;
-  }
-
-  @include vs-at-breakpoint(sm) {
-    $gutter: gutter(sm);
-    $margin: -$gutter / 2;
-    margin: 0 $margin;
-  }
-
-  @include vs-at-breakpoint(md) {
-    $gutter: gutter(md);
-    $margin: -$gutter / 2;
-    margin: 0 $margin;
-  }
-
-  @include vs-at-breakpoint(lg) {
-    $gutter: gutter(md);
-    $margin: -$gutter / 2;
-    margin: 0 $margin;
-  }
-
-  @include vs-at-breakpoint(xl) {
-    $gutter: gutter(lg);
-    $margin: -$gutter / 2;
-    margin: 0 $margin;
-  }
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 1rem * 2;
 }

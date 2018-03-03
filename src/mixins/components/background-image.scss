@@ -1,9 +1,0 @@
-@mixin vs-background-image($source: null) {
-  @if $source {
-    background: url($source);
-  }
-
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
