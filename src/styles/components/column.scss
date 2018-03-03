@@ -1,12 +1,11 @@
 @include vs-at-breakpoint(xs) {
-  $total-columns: total-columns(xs);
-  @for $span from 1 through $total-columns {
+  @for $span from 1 through 12 {
     .vs-col-xs-#{$span} {
       @include vs-col(xs, $span);
     }
   }
 
-  @for $push from 1 through $total-columns {
+  @for $push from 1 through 12 {
     .vs-col-xs-push-#{$push} {
       @include vs-col-push(xs, $push);
     }
@@ -14,14 +13,13 @@
 }
 
 @include vs-at-breakpoint(sm) {
-  $total-columns: total-columns(sm);
-  @for $span from 1 through $total-columns {
+  @for $span from 1 through 12 {
     .vs-col-sm-#{$span} {
       @include vs-col(sm, $span);
     }
   }
 
-  @for $push from 1 through $total-columns {
+  @for $push from 1 through 12 {
     .vs-col-sm-push-#{$push} {
       @include vs-col-push(sm, $push);
     }
@@ -29,14 +27,13 @@
 }
 
 @include vs-at-breakpoint(md) {
-  $total-columns: total-columns(md);
-  @for $span from 1 through $total-columns {
+  @for $span from 1 through 12 {
     .vs-col-md-#{$span} {
       @include vs-col(md, $span);
     }
   }
 
-  @for $push from 1 through $total-columns {
+  @for $push from 1 through 12 {
     .vs-col-md-push-#{$push} {
       @include vs-col-push(md, $push);
     }
@@ -44,14 +41,13 @@
 }
 
 @include vs-at-breakpoint(lg) {
-  $total-columns: total-columns(lg);
-  @for $span from 1 through $total-columns {
+  @for $span from 1 through 12 {
     .vs-col-lg-#{$span} {
       @include vs-col(lg, $span);
     }
   }
 
-  @for $push from 1 through $total-columns {
+  @for $push from 1 through 12 {
     .vs-col-lg-push-#{$push} {
       @include vs-col-push(lg, $push);
     }
@@ -59,14 +55,13 @@
 }
 
 @include vs-at-breakpoint(xl) {
-  $total-columns: total-columns(xl);
-  @for $span from 1 through $total-columns {
+  @for $span from 1 through 12 {
     .vs-col-xl-#{$span} {
       @include vs-col(xl, $span);
     }
   }
 
-  @for $push from 1 through $total-columns {
+  @for $push from 1 through 12 {
     .vs-col-xl-push-#{$push} {
       @include vs-col-push(xl, $push);
     }

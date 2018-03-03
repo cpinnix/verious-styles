@@ -7,29 +7,30 @@
   $vs-width-md: 768px;
   $vs-width-lg: 992px;
   $vs-width-xl: 1200px;
+  $page-margin: 1rem * 3;
 
   @include vs-at-breakpoint(xs) {
     width: $vs-width-xs;
-    padding: 0 page-margin(xs);
+    padding: 0 $page-margin;
   }
 
   @include vs-at-breakpoint(sm) {
     width: $vs-width-sm;
-    padding: 0 page-margin(sm);
+    padding: 0 $page-margin;
   }
 
   @include vs-at-breakpoint(md) {
     width: $vs-width-md;
-    padding: 0 page-margin(md);
+    padding: 0 $page-margin;
   }
 
   @include vs-at-breakpoint(lg) {
     width: $vs-width-lg;
-    padding: 0 page-margin(lg);
+    padding: 0 $page-margin;
   }
 
   @include vs-at-breakpoint(xl) {
     width: $vs-width-xl;
-    padding: 0 page-margin(xl);
+    padding: 0 $page-margin;
   }
 }
