@@ -10,9 +10,9 @@
     "develop": "node-sass src/verious-styles.scss public/verious-styles.css && serve public && node-sass src/verious-styles.scss public/verious-styles.css --watch",
     "build": "rm -rf dist && mkdir dist && node-sass src/verious-styles.scss --source-map=true --output-style=compressed --output=dist"
   },
-  "files": {
+  "files": [
     "dist/**/*"
-  },
+  ],
   "devDependencies": {
     "sanitize.css": "^5.0.0",
     "node-sass": "^4.7.2",
