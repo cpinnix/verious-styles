@@ -2,7 +2,7 @@
   $key: nth($row, 1);
   $value: vs-color($key);
 
-  .vs-background-color--#{$key} {
+  .vs-background-color-#{$key} {
     @include vs-background-color($value);
   }
 }

@@ -2,7 +2,7 @@
   $key: nth($row, 1);
   $value: vs-color($key);
 
-  .vs-fill-color--#{$key} {
+  .vs-fill-color-#{$key} {
     @include vs-fill-color($value);
   }
 }

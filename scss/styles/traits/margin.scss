@@ -1,136 +1,136 @@
 @for $i from 1 through 96 {
 
-  .vs-margin-top--#{$i} {
+  .vs-margin-top-#{$i} {
     @include vs-margin(top, $i);
   }
 
-  .vs-margin-right--#{$i} {
+  .vs-margin-right-#{$i} {
     @include vs-margin(right, $i);
   }
 
-  .vs-margin-bottom--#{$i} {
+  .vs-margin-bottom-#{$i} {
     @include vs-margin(bottom, $i);
   }
 
-  .vs-margin-left--#{$i} {
+  .vs-margin-left-#{$i} {
     @include vs-margin(left, $i);
   }
 
-  .vs-margin-xs-top--#{$i} {
+  .vs-margin-xs-top-#{$i} {
     @include vs-at-breakpoint(xs) {
       margin-top: $i * vs-spacing(1);
     }
   }
 
-  .vs-margin-xs-right--#{$i} {
+  .vs-margin-xs-right-#{$i} {
     @include vs-at-breakpoint(xs) {
       margin-right: $i * vs-spacing(1);
     }
   }
 
-  .vs-margin-xs-bottom--#{$i} {
+  .vs-margin-xs-bottom-#{$i} {
     @include vs-at-breakpoint(xs) {
       margin-bottom: $i * vs-spacing(1);
     }
   }
 
-  .vs-margin-xs-left--#{$i} {
+  .vs-margin-xs-left-#{$i} {
     @include vs-at-breakpoint(xs) {
       margin-left: $i * vs-spacing(1);
     }
   }
 
-  .vs-margin-sm-top--#{$i} {
+  .vs-margin-sm-top-#{$i} {
     @include vs-at-breakpoint(sm) {
       margin-top: $i * vs-spacing(1);
     }
   }
 
-  .vs-margin-sm-right--#{$i} {
+  .vs-margin-sm-right-#{$i} {
     @include vs-at-breakpoint(sm) {
       margin-right: $i * vs-spacing(1);
     }
   }
 
-  .vs-margin-sm-bottom--#{$i} {
+  .vs-margin-sm-bottom-#{$i} {
     @include vs-at-breakpoint(sm) {
       margin-bottom: $i * vs-spacing(1);
     }
   }
 
-  .vs-margin-sm-left--#{$i} {
+  .vs-margin-sm-left-#{$i} {
     @include vs-at-breakpoint(sm) {
       margin-left: $i * vs-spacing(1);
     }
   }
 
-  .vs-margin-md-top--#{$i} {
+  .vs-margin-md-top-#{$i} {
     @include vs-at-breakpoint(md) {
       margin-top: $i * vs-spacing(1);
     }
   }
 
-  .vs-margin-md-right--#{$i} {
+  .vs-margin-md-right-#{$i} {
     @include vs-at-breakpoint(md) {
       margin-right: $i * vs-spacing(1);
     }
   }
 
-  .vs-margin-md-bottom--#{$i} {
+  .vs-margin-md-bottom-#{$i} {
     @include vs-at-breakpoint(md) {
       margin-bottom: $i * vs-spacing(1);
     }
   }
 
-  .vs-margin-md-left--#{$i} {
+  .vs-margin-md-left-#{$i} {
     @include vs-at-breakpoint(md) {
       margin-left: $i * vs-spacing(1);
     }
   }
 
-  .vs-margin-lg-top--#{$i} {
+  .vs-margin-lg-top-#{$i} {
     @include vs-at-breakpoint(lg) {
       margin-top: $i * vs-spacing(1);
     }
   }
 
-  .vs-margin-lg-right--#{$i} {
+  .vs-margin-lg-right-#{$i} {
     @include vs-at-breakpoint(lg) {
       margin-right: $i * vs-spacing(1);
     }
   }
 
-  .vs-margin-lg-bottom--#{$i} {
+  .vs-margin-lg-bottom-#{$i} {
     @include vs-at-breakpoint(lg) {
       margin-bottom: $i * vs-spacing(1);
     }
   }
 
-  .vs-margin-lg-left--#{$i} {
+  .vs-margin-lg-left-#{$i} {
     @include vs-at-breakpoint(lg) {
       margin-left: $i * vs-spacing(1);
     }
   }
 
-  .vs-margin-xl-top--#{$i} {
+  .vs-margin-xl-top-#{$i} {
     @include vs-at-breakpoint(xl) {
       margin-top: $i * vs-spacing(1);
     }
   }
 
-  .vs-margin-xl-right--#{$i} {
+  .vs-margin-xl-right-#{$i} {
     @include vs-at-breakpoint(xl) {
       margin-right: $i * vs-spacing(1);
     }
   }
 
-  .vs-margin-xl-bottom--#{$i} {
+  .vs-margin-xl-bottom-#{$i} {
     @include vs-at-breakpoint(xl) {
       margin-bottom: $i * vs-spacing(1);
     }
   }
 
-  .vs-margin-xl-left--#{$i} {
+  .vs-margin-xl-left-#{$i} {
     @include vs-at-breakpoint(xl) {
       margin-left: $i * vs-spacing(1);
     }

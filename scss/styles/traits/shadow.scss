@@ -1,5 +1,5 @@
 @for $i from 1 through 5 {
-  .vs-shadow--#{$i} {
+  .vs-shadow-#{$i} {
     @include vs-shadow($i);
   }
 }

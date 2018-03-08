@@ -1,33 +1,33 @@
 @for $i from 1 through 96 {
-  .vs-width--#{$i} {
+  .vs-width-#{$i} {
     @include vs-width($i);
   }
 
-  .vs-width--xs-#{$i} {
+  .vs-width-xs-#{$i} {
     @include vs-at-breakpoint(xs) {
       @include vs-width($i);
     }
   }
 
-  .vs-width--sm-#{$i} {
+  .vs-width-sm-#{$i} {
     @include vs-at-breakpoint(sm) {
       @include vs-width($i);
     }
   }
 
-  .vs-width--md-#{$i} {
+  .vs-width-md-#{$i} {
     @include vs-at-breakpoint(md) {
       @include vs-width($i);
     }
   }
 
-  .vs-width--lg-#{$i} {
+  .vs-width-lg-#{$i} {
     @include vs-at-breakpoint(lg) {
       @include vs-width($i);
     }
   }
 
-  .vs-width--xl-#{$i} {
+  .vs-width-xl-#{$i} {
     @include vs-at-breakpoint(xl) {
       @include vs-width($i);
     }
@@ -35,35 +35,35 @@
 }
 
 @for $i from 1 through 96 {
-  .vs-height--#{$i} {
+  .vs-height-#{$i} {
     @include vs-height($i);
   }
 
-  .vs-height--xs-#{$i} {
+  .vs-height-xs-#{$i} {
     @include vs-at-breakpoint(xs) {
       @include vs-height($i);
     }
   }
 
-  .vs-height--sm-#{$i} {
+  .vs-height-sm-#{$i} {
     @include vs-at-breakpoint(sm) {
       @include vs-height($i);
     }
   }
 
-  .vs-height--md-#{$i} {
+  .vs-height-md-#{$i} {
     @include vs-at-breakpoint(md) {
       @include vs-height($i);
     }
   }
 
-  .vs-height--lg-#{$i} {
+  .vs-height-lg-#{$i} {
     @include vs-at-breakpoint(lg) {
       @include vs-height($i);
     }
   }
 
-  .vs-height--xl-#{$i} {
+  .vs-height-xl-#{$i} {
     @include vs-at-breakpoint(xl) {
       @include vs-height($i);
     }
