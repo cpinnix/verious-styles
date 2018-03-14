@@ -2,7 +2,7 @@
   @include vs-font(system);
   @include vs-font-size($size);
   @include vs-line-height($size);
-  @include vs-margin(bottom, 1);
+  @include vs-margin(bottom, 2);
 
   a {
     display: inline;

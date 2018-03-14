@@ -2,6 +2,6 @@
   @include vs-font(system-bold);
   @include vs-font-size($size + 2);
   @include vs-line-height($size + 2);
-  @include vs-margin(top, $size);
-  @include vs-margin(bottom, $size);
+  @include vs-margin(top, 2);
+  @include vs-margin(bottom, 2);
 }
