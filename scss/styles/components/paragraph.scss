@@ -7,3 +7,9 @@
 .vs-paragraph {
   @include vs-paragraph(3);
 }
+
+@for $i from 1 through 3 {
+  .vs-paragraph-#{$i} {
+    @include vs-paragraph($i);
+  }
+}
