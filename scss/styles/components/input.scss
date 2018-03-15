@@ -1,0 +1,11 @@
+.vs-input {
+  @include vs-input();
+}
+
+.vs-input-left {
+  @include vs-input-left();
+}
+
+.vs-input-right {
+  @include vs-input-right();
+}

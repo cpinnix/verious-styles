@@ -1,3 +1,31 @@
 .vs-button {
   @include vs-button();
+  @include vs-button-background-color();
+  @include vs-button-border-color();
+}
+
+.vs-button-primary {
+  @include vs-text-color(white);
+  @include vs-button-background-color(blue-500);
+  @include vs-button-border-color(blue-800);
+}
+
+.vs-button-danger {
+
+}
+
+.vs-button-warning {
+
+}
+
+.vs-button-success {
+
+}
+
+.vs-button-left {
+  @include vs-button-left();
+}
+
+.vs-button-right {
+  @include vs-button-right();
 }

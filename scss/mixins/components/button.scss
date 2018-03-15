@@ -1,14 +1,48 @@
 @mixin vs-button() {
   @include vs-font(system);
-  @include vs-font-size(1);
-  line-height: vs-spacing(3);
-  height: vs-spacing(3);
-  @include vs-padding(left, 1);
-  @include vs-padding(right, 1);
-  border: 0;
+  @include vs-font-size(3);
+  @include vs-line-height(3);
+  @include vs-padding(top, 1);
+  @include vs-padding(right, 2);
+  @include vs-padding(bottom, 1);
+  @include vs-padding(left, 2);
   cursor: pointer;
+  border: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  transition: border-color .15s ease-in-out, background-color .15s ease-in-out;
+  position: relative;
+  z-index: 1;
 
   &:focus {
     outline: none;
   }
+}
+
+@mixin vs-button-background-color($color: grey-100) {
+  background-color: vs-color($color);
+
+  &:hover {
+    background-color: darken(vs-color($color), 5%);
+  }
+}
+
+@mixin vs-button-border-color($border-color: grey-400) {
+  border-color: vs-color($border-color);
+
+  &:hover {
+    border-color: darken(vs-color($border-color), 5%);
+  }
+}
+
+@mixin vs-button-left() {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-right: -1px;
+}
+
+@mixin vs-button-right() {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
