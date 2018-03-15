@@ -11,15 +11,21 @@
 }
 
 .vs-button-danger {
-
+  @include vs-text-color(white);
+  @include vs-button-background-color(red-500);
+  @include vs-button-border-color(red-800);
 }
 
 .vs-button-warning {
-
+  @include vs-text-color(white);
+  @include vs-button-background-color(orange-500);
+  @include vs-button-border-color(orange-800);
 }
 
 .vs-button-success {
-
+  @include vs-text-color(white);
+  @include vs-button-background-color(green-500);
+  @include vs-button-border-color(green-800);
 }
 
 .vs-button-left {

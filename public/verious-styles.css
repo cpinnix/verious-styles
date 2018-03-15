@@ -34003,6 +34003,33 @@
   .vs-button-primary:hover {
     border-color: #1259a9; }
 
+.vs-button-danger {
+  color: white;
+  background-color: #f44336;
+  border-color: #c62828; }
+  .vs-button-danger:hover {
+    background-color: #f32c1e; }
+  .vs-button-danger:hover {
+    border-color: #b12424; }
+
+.vs-button-warning {
+  color: white;
+  background-color: #ff9800;
+  border-color: #ef6c00; }
+  .vs-button-warning:hover {
+    background-color: #e68900; }
+  .vs-button-warning:hover {
+    border-color: #d66000; }
+
+.vs-button-success {
+  color: white;
+  background-color: #4caf50;
+  border-color: #2e7d32; }
+  .vs-button-success:hover {
+    background-color: #449d48; }
+  .vs-button-success:hover {
+    border-color: #276a2b; }
+
 .vs-button-left {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
