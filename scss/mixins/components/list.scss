@@ -78,11 +78,11 @@
 
   ul,
   .vs-list-unordered {
-    margin-left: vs-margin(left, 2);
+    @include vs-margin(left, 2);
   }
 
   ol,
   .vs-list-ordered {
-    margin-left: vs-margin(left, 2);
+    @include vs-margin(left, 2);
   }
 }
