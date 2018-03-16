@@ -1,5 +1,6 @@
 @mixin vs-pre() {
-  overflow: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
   white-space: inherit;
   margin: 0;
 }

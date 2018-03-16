@@ -34040,7 +34040,8 @@
   border-bottom-left-radius: 0; }
 
 .verious pre {
-  overflow: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
   white-space: inherit;
   margin: 0; }
 
@@ -34053,7 +34054,8 @@
   font-size: 2.5rem; }
 
 .vs-pre {
-  overflow: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
   white-space: inherit;
   margin: 0; }
 
@@ -35404,6 +35406,12 @@
   font-weight: 400;
   font-size: 9.536rem;
   line-height: 1; }
+
+.vs-text-bold {
+  font-weight: bold; }
+
+.vs-text-uppercase {
+  text-transform: uppercase; }
 
 .vs-textarea {
   border: 1px solid #bdbdbd;

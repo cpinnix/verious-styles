@@ -5,3 +5,11 @@
     @include vs-line-height($i);
   }
 }
+
+.vs-text-bold {
+  @include vs-text-bold();
+}
+
+.vs-text-uppercase {
+  @include vs-text-uppercase();
+}
