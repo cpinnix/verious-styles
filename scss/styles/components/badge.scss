@@ -1,0 +1,30 @@
+.vs-badge {
+  @include vs-badge();
+  @include vs-text-color(white);
+  @include vs-badge-background-color(grey-600);
+  @include vs-badge-border-color(grey-600);
+}
+
+.vs-badge-primary {
+  @include vs-text-color(white);
+  @include vs-badge-background-color(blue-500);
+  @include vs-badge-border-color(blue-800);
+}
+
+.vs-badge-danger {
+  @include vs-text-color(white);
+  @include vs-badge-background-color(red-500);
+  @include vs-badge-border-color(red-800);
+}
+
+.vs-badge-warning {
+  @include vs-text-color(white);
+  @include vs-badge-background-color(orange-500);
+  @include vs-badge-border-color(orange-800);
+}
+
+.vs-badge-success {
+  @include vs-text-color(white);
+  @include vs-badge-background-color(green-500);
+  @include vs-badge-border-color(green-800);
+}

@@ -33944,6 +33944,42 @@
   .vs-hidden-xl {
     display: none; } }
 
+.vs-badge {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  display: inline-block;
+  padding-top: 0.25rem;
+  padding-right: 1rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  font-weight: bold;
+  border-radius: 100px;
+  color: white;
+  background-color: #757575;
+  border-color: #757575; }
+
+.vs-badge-primary {
+  color: white;
+  background-color: #2196f3;
+  border-color: #1565c0; }
+
+.vs-badge-danger {
+  color: white;
+  background-color: #f44336;
+  border-color: #c62828; }
+
+.vs-badge-warning {
+  color: white;
+  background-color: #ff9800;
+  border-color: #ef6c00; }
+
+.vs-badge-success {
+  color: white;
+  background-color: #4caf50;
+  border-color: #2e7d32; }
+
 .verious blockquote {
   zoom: 1;
   border-left: 0.5rem solid #f5f5f5;
@@ -34048,7 +34084,7 @@
 .verious code {
   white-space: pre;
   font-style: normal;
-  line-height: 1;
+  line-height: 1.5;
   font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;;
   font-weight: 400;
   font-size: 2.5rem; }
@@ -34062,7 +34098,7 @@
 .vs-code {
   white-space: pre;
   font-style: normal;
-  line-height: 1;
+  line-height: 1.5;
   font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;;
   font-weight: 400;
   font-size: 1.6rem; }
