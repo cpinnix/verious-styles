@@ -1,5 +1,5 @@
-.vs-image {
-  &-responsive {
-    @include vs-image-responsive();
+.vs-picture {
+  &-source {
+    @include vs-picture-source();
   }
 }

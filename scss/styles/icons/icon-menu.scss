@@ -7,7 +7,7 @@
     height: 2px;
     @include transition(all 0.2s linear);
 
-    &--cross {
+    &-cross {
       transform: rotate(135deg) translate(2px, -2px);
     }
   }
@@ -20,8 +20,8 @@
     height: 2px;
     @include transition(all 0.2s linear);
 
-    &--cross {
-      transform: rotate(45deg) translate(-2px, -2px);
+    &-cross {
+      transform: rotate(45deg) translate(-1px, -1px);
     }
   }
 }

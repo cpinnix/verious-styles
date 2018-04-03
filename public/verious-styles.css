@@ -13,7 +13,7 @@
   -o-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear; }
-  .vs-icon-menu-top--cross {
+  .vs-icon-menu-top-cross {
     transform: rotate(135deg) translate(2px, -2px); }
 
 .vs-icon-menu-bottom {
@@ -26,8 +26,8 @@
   -o-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear; }
-  .vs-icon-menu-bottom--cross {
-    transform: rotate(45deg) translate(-2px, -2px); }
+  .vs-icon-menu-bottom-cross {
+    transform: rotate(45deg) translate(-1px, -1px); }
 
 .vs-background-color-red-50 {
   background-color: #ffebee; }
@@ -34704,7 +34704,7 @@
   .vs-html {
     font-size: 8px; } }
 
-.vs-image-responsive {
+.vs-picture-source {
   width: 100%; }
 
 .vs-input {
