@@ -2,11 +2,11 @@
   margin: 0 auto;
 
   $widths: (
-    xs: 100%,
+    xs: inherit,
     sm: 576px,
     md: 768px,
     lg: 992px,
-    xl: 1200px,
+    xl: 1200px
   );
 
   $page-margin: 1rem * 3;
