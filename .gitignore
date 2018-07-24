@@ -1,5 +1,8 @@
 # Dependencies
 node_modules
 
+# System Files
+.DS_Store
+
 # Deployment
 .netlify
