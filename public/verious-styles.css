@@ -34354,7 +34354,8 @@
     grid-column-start: 13; } }
 
 .vs-grid {
-  margin: 0 auto; }
+  margin: 0 auto;
+  box-sizing: border-box; }
   @media all and (min-width: 0) and (max-width: 575px) {
     .vs-grid {
       width: inherit;
