@@ -67,3 +67,69 @@
     }
   }
 }
+
+@include vs-at-breakpoint(xs) {
+  @for $end from 1 through 12 {
+    .vs-col-end-xs-#{$end} {
+      @include vs-col-end(xs, $end);
+    }
+  }
+
+  @for $start from 1 through 12 {
+    .vs-col-start-xs-#{$start} {
+      @include vs-col-start(xs, $start);
+    }
+  }
+}
+@include vs-at-breakpoint(sm) {
+  @for $end from 1 through 12 {
+    .vs-col-end-sm-#{$end} {
+      @include vs-col-end(sm, $end);
+    }
+  }
+
+  @for $start from 1 through 12 {
+    .vs-col-start-sm-#{$start} {
+      @include vs-col-start(sm, $start);
+    }
+  }
+}
+@include vs-at-breakpoint(md) {
+  @for $end from 1 through 12 {
+    .vs-col-end-md-#{$end} {
+      @include vs-col-end(md, $end);
+    }
+  }
+
+  @for $start from 1 through 12 {
+    .vs-col-start-md-#{$start} {
+      @include vs-col-start(md, $start);
+    }
+  }
+}
+@include vs-at-breakpoint(lg) {
+  @for $end from 1 through 12 {
+    .vs-col-end-lg-#{$end} {
+      @include vs-col-end(lg, $end);
+    }
+  }
+
+  @for $start from 1 through 12 {
+    .vs-col-start-lg-#{$start} {
+      @include vs-col-start(lg, $start);
+    }
+  }
+}
+@include vs-at-breakpoint(xl) {
+  @for $end from 1 through 12 {
+    .vs-col-end-xl-#{$end} {
+      @include vs-col-end(xl, $end);
+    }
+  }
+
+  @for $start from 1 through 12 {
+    .vs-col-start-xl-#{$start} {
+      @include vs-col-start(xl, $start);
+    }
+  }
+}

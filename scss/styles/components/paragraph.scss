@@ -4,11 +4,19 @@
   }
 }
 
+@for $i from 1 through 6 {
+  .verious.vs-paragraph-#{$i} {
+    p {
+      @include vs-paragraph($i);
+    }
+  }
+}
+
 .vs-paragraph {
   @include vs-paragraph(3);
 }
 
-@for $i from 1 through 3 {
+@for $i from 1 through 6 {
   .vs-paragraph-#{$i} {
     @include vs-paragraph($i);
   }

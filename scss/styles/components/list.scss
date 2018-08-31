@@ -8,7 +8,7 @@
   }
 
   li {
-    @include vs-list-item(1);
+    @include vs-list-item(3);
   }
 
   .vs-list {
@@ -25,6 +25,15 @@
 
   .vs-list-item {
     @include vs-list-item(3);
+  }
+}
+
+@for $i from 1 through 6 {
+  .verious.vs-list-item-#{$i} {
+    li,
+    .vs-list-item {
+      @include vs-list-item($i);
+    }
   }
 }
 

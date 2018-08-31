@@ -1,4 +1,5 @@
-@mixin vs-paragraph($size) {;
+@mixin vs-paragraph($size) {
+  margin: 0;
   @include vs-font(system);
   @include vs-font-size($size);
   @include vs-line-height($size);
