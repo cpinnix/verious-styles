@@ -2,7 +2,8 @@
   .vs-text-#{$i} {
     @include vs-font(system);
     @include vs-font-size($i);
-    @include vs-line-height($i);
+
+    line-height: 1.6;
   }
 }
 
