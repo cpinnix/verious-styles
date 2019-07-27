@@ -7,8 +7,7 @@
 ) {
   @include vs-font($type);
   @include vs-font-size($size);
-
-  line-height: 1.6;
+  @include vs-line-height($size);
 }
 
 @mixin vs-text-bold() {

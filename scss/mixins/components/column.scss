@@ -7,7 +7,7 @@
 }
 
 @mixin vs-col-end($viewport, $end) {
-  grid-column-end: span $end;
+  grid-column-end: $end + 1;
 }
 
 @mixin vs-col-start($viewport, $start) {

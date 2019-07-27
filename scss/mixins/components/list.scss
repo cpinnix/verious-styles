@@ -1,13 +1,14 @@
 @mixin vs-list-item($size) {
   @include vs-font(system);
   @include vs-font-size($size);
+  @include vs-line-height($size);
 
-  line-height: 1.6;
   display: list-item;
 
   a {
     @include vs-font(system);
     @include vs-font-size($size);
+    @include vs-line-height($size);
 
     line-height: 1.6;
     display: inline;

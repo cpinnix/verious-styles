@@ -1,0 +1,7 @@
+.vs-rule-horizontal {
+  @include vs-rule();
+}
+
+.vs-rule-vertical {
+  @include vs-rule(vertical);
+}

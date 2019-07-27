@@ -11,4 +11,5 @@
   line-height: 1.5;
   @include vs-font(mono);
   @include vs-font-size($size);
+  @include vs-line-height($size);
 }

@@ -1,11 +1,10 @@
 @mixin vs-paragraph($size) {
   @include vs-font(system);
   @include vs-font-size($size);
+  @include vs-line-height($size);
 
   margin: 0;
   @include vs-margin(bottom, 2);
-
-  line-height: 1.6;
 
   a {
     display: inline;
