@@ -7,15 +7,16 @@
   "repository": "git@github.com:cpinnix/verious-styles.git",
   "license": "MIT",
   "scripts": {
-    "develop":
-      "node-sass scss/verious-styles.scss public/verious-styles.css && serve public && node-sass scss/verious-styles.scss public/verious-styles.css --watch",
-    "build":
-      "rm -rf css && mkdir css && node-sass scss/verious-styles.scss --source-map=true --output-style=compressed --output=css"
+    "develop": "node-sass scss/verious-styles.scss public/verious-styles.css && serve public && node-sass scss/verious-styles.scss public/verious-styles.css --watch --recursive",
+    "build": "rm -rf css && mkdir css && node-sass scss/verious-styles.scss --source-map=true --output-style=compressed --output=css"
   },
-  "files": ["css/**/*", "scss/**/*"],
+  "files": [
+    "css/**/*",
+    "scss/**/*"
+  ],
   "devDependencies": {
-    "node-sass": "^4.7.2",
-    "sanitize.css": "^5.0.0",
-    "serve": "^6.5.3"
+    "node-sass": "^4.12.0",
+    "sanitize.css": "^11.0.0",
+    "serve": "^11.1.0"
   }
 }
