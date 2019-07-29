@@ -34235,29 +34235,29 @@
   .vs-col-end-xs-12 {
     grid-column-end: 13; }
   .vs-col-start-xs-1 {
-    grid-column-start: 2; }
+    grid-column-start: 1; }
   .vs-col-start-xs-2 {
-    grid-column-start: 3; }
+    grid-column-start: 2; }
   .vs-col-start-xs-3 {
-    grid-column-start: 4; }
+    grid-column-start: 3; }
   .vs-col-start-xs-4 {
-    grid-column-start: 5; }
+    grid-column-start: 4; }
   .vs-col-start-xs-5 {
-    grid-column-start: 6; }
+    grid-column-start: 5; }
   .vs-col-start-xs-6 {
-    grid-column-start: 7; }
+    grid-column-start: 6; }
   .vs-col-start-xs-7 {
-    grid-column-start: 8; }
+    grid-column-start: 7; }
   .vs-col-start-xs-8 {
-    grid-column-start: 9; }
+    grid-column-start: 8; }
   .vs-col-start-xs-9 {
-    grid-column-start: 10; }
+    grid-column-start: 9; }
   .vs-col-start-xs-10 {
-    grid-column-start: 11; }
+    grid-column-start: 10; }
   .vs-col-start-xs-11 {
-    grid-column-start: 12; }
+    grid-column-start: 11; }
   .vs-col-start-xs-12 {
-    grid-column-start: 13; } }
+    grid-column-start: 12; } }
 
 @media all and (min-width: 576px) and (max-width: 767px) {
   .vs-col-end-sm-1 {
@@ -34285,29 +34285,29 @@
   .vs-col-end-sm-12 {
     grid-column-end: 13; }
   .vs-col-start-sm-1 {
-    grid-column-start: 2; }
+    grid-column-start: 1; }
   .vs-col-start-sm-2 {
-    grid-column-start: 3; }
+    grid-column-start: 2; }
   .vs-col-start-sm-3 {
-    grid-column-start: 4; }
+    grid-column-start: 3; }
   .vs-col-start-sm-4 {
-    grid-column-start: 5; }
+    grid-column-start: 4; }
   .vs-col-start-sm-5 {
-    grid-column-start: 6; }
+    grid-column-start: 5; }
   .vs-col-start-sm-6 {
-    grid-column-start: 7; }
+    grid-column-start: 6; }
   .vs-col-start-sm-7 {
-    grid-column-start: 8; }
+    grid-column-start: 7; }
   .vs-col-start-sm-8 {
-    grid-column-start: 9; }
+    grid-column-start: 8; }
   .vs-col-start-sm-9 {
-    grid-column-start: 10; }
+    grid-column-start: 9; }
   .vs-col-start-sm-10 {
-    grid-column-start: 11; }
+    grid-column-start: 10; }
   .vs-col-start-sm-11 {
-    grid-column-start: 12; }
+    grid-column-start: 11; }
   .vs-col-start-sm-12 {
-    grid-column-start: 13; } }
+    grid-column-start: 12; } }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
   .vs-col-end-md-1 {
@@ -34335,29 +34335,29 @@
   .vs-col-end-md-12 {
     grid-column-end: 13; }
   .vs-col-start-md-1 {
-    grid-column-start: 2; }
+    grid-column-start: 1; }
   .vs-col-start-md-2 {
-    grid-column-start: 3; }
+    grid-column-start: 2; }
   .vs-col-start-md-3 {
-    grid-column-start: 4; }
+    grid-column-start: 3; }
   .vs-col-start-md-4 {
-    grid-column-start: 5; }
+    grid-column-start: 4; }
   .vs-col-start-md-5 {
-    grid-column-start: 6; }
+    grid-column-start: 5; }
   .vs-col-start-md-6 {
-    grid-column-start: 7; }
+    grid-column-start: 6; }
   .vs-col-start-md-7 {
-    grid-column-start: 8; }
+    grid-column-start: 7; }
   .vs-col-start-md-8 {
-    grid-column-start: 9; }
+    grid-column-start: 8; }
   .vs-col-start-md-9 {
-    grid-column-start: 10; }
+    grid-column-start: 9; }
   .vs-col-start-md-10 {
-    grid-column-start: 11; }
+    grid-column-start: 10; }
   .vs-col-start-md-11 {
-    grid-column-start: 12; }
+    grid-column-start: 11; }
   .vs-col-start-md-12 {
-    grid-column-start: 13; } }
+    grid-column-start: 12; } }
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
   .vs-col-end-lg-1 {
@@ -34385,29 +34385,29 @@
   .vs-col-end-lg-12 {
     grid-column-end: 13; }
   .vs-col-start-lg-1 {
-    grid-column-start: 2; }
+    grid-column-start: 1; }
   .vs-col-start-lg-2 {
-    grid-column-start: 3; }
+    grid-column-start: 2; }
   .vs-col-start-lg-3 {
-    grid-column-start: 4; }
+    grid-column-start: 3; }
   .vs-col-start-lg-4 {
-    grid-column-start: 5; }
+    grid-column-start: 4; }
   .vs-col-start-lg-5 {
-    grid-column-start: 6; }
+    grid-column-start: 5; }
   .vs-col-start-lg-6 {
-    grid-column-start: 7; }
+    grid-column-start: 6; }
   .vs-col-start-lg-7 {
-    grid-column-start: 8; }
+    grid-column-start: 7; }
   .vs-col-start-lg-8 {
-    grid-column-start: 9; }
+    grid-column-start: 8; }
   .vs-col-start-lg-9 {
-    grid-column-start: 10; }
+    grid-column-start: 9; }
   .vs-col-start-lg-10 {
-    grid-column-start: 11; }
+    grid-column-start: 10; }
   .vs-col-start-lg-11 {
-    grid-column-start: 12; }
+    grid-column-start: 11; }
   .vs-col-start-lg-12 {
-    grid-column-start: 13; } }
+    grid-column-start: 12; } }
 
 @media all and (min-width: 1200px) {
   .vs-col-end-xl-1 {
@@ -34435,29 +34435,29 @@
   .vs-col-end-xl-12 {
     grid-column-end: 13; }
   .vs-col-start-xl-1 {
-    grid-column-start: 2; }
+    grid-column-start: 1; }
   .vs-col-start-xl-2 {
-    grid-column-start: 3; }
+    grid-column-start: 2; }
   .vs-col-start-xl-3 {
-    grid-column-start: 4; }
+    grid-column-start: 3; }
   .vs-col-start-xl-4 {
-    grid-column-start: 5; }
+    grid-column-start: 4; }
   .vs-col-start-xl-5 {
-    grid-column-start: 6; }
+    grid-column-start: 5; }
   .vs-col-start-xl-6 {
-    grid-column-start: 7; }
+    grid-column-start: 6; }
   .vs-col-start-xl-7 {
-    grid-column-start: 8; }
+    grid-column-start: 7; }
   .vs-col-start-xl-8 {
-    grid-column-start: 9; }
+    grid-column-start: 8; }
   .vs-col-start-xl-9 {
-    grid-column-start: 10; }
+    grid-column-start: 9; }
   .vs-col-start-xl-10 {
-    grid-column-start: 11; }
+    grid-column-start: 10; }
   .vs-col-start-xl-11 {
-    grid-column-start: 12; }
+    grid-column-start: 11; }
   .vs-col-start-xl-12 {
-    grid-column-start: 13; } }
+    grid-column-start: 12; } }
 
 .vs-flex {
   display: flex; }
@@ -34650,8 +34650,7 @@
   font-size: 6rem;
   line-height: 6rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  line-height: 1.2; }
+  margin-bottom: 2rem; }
 
 .verious h2 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -34659,8 +34658,7 @@
   font-size: 5rem;
   line-height: 5rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  line-height: 1.2; }
+  margin-bottom: 2rem; }
 
 .verious h3 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -34668,8 +34666,7 @@
   font-size: 4rem;
   line-height: 4.75rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  line-height: 1.2; }
+  margin-bottom: 2rem; }
 
 .verious h4 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -34677,8 +34674,7 @@
   font-size: 3rem;
   line-height: 4rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  line-height: 1.2; }
+  margin-bottom: 2rem; }
 
 .verious h5 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -34686,8 +34682,7 @@
   font-size: 2.5rem;
   line-height: 3.5rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  line-height: 1.2; }
+  margin-bottom: 2rem; }
 
 .verious h6 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -34695,8 +34690,7 @@
   font-size: 2rem;
   line-height: 3rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  line-height: 1.2; }
+  margin-bottom: 2rem; }
 
 .vs-heading-1 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -34704,8 +34698,7 @@
   font-size: 6rem;
   line-height: 6rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  line-height: 1.2; }
+  margin-bottom: 2rem; }
 
 .vs-heading-2 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -34713,8 +34706,7 @@
   font-size: 5rem;
   line-height: 5rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  line-height: 1.2; }
+  margin-bottom: 2rem; }
 
 .vs-heading-3 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -34722,8 +34714,7 @@
   font-size: 4rem;
   line-height: 4.75rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  line-height: 1.2; }
+  margin-bottom: 2rem; }
 
 .vs-heading-4 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -34731,8 +34722,7 @@
   font-size: 3rem;
   line-height: 4rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  line-height: 1.2; }
+  margin-bottom: 2rem; }
 
 .vs-heading-5 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -34740,8 +34730,7 @@
   font-size: 2.5rem;
   line-height: 3.5rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  line-height: 1.2; }
+  margin-bottom: 2rem; }
 
 .vs-heading-6 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -34749,8 +34738,7 @@
   font-size: 2rem;
   line-height: 3rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  line-height: 1.2; }
+  margin-bottom: 2rem; }
 
 .verious .vs-heading-1 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -34758,8 +34746,7 @@
   font-size: 6rem;
   line-height: 6rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  line-height: 1.2; }
+  margin-bottom: 2rem; }
 
 .verious .vs-heading-2 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -34767,8 +34754,7 @@
   font-size: 5rem;
   line-height: 5rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  line-height: 1.2; }
+  margin-bottom: 2rem; }
 
 .verious .vs-heading-3 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -34776,8 +34762,7 @@
   font-size: 4rem;
   line-height: 4.75rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  line-height: 1.2; }
+  margin-bottom: 2rem; }
 
 .verious .vs-heading-4 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -34785,8 +34770,7 @@
   font-size: 3rem;
   line-height: 4rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  line-height: 1.2; }
+  margin-bottom: 2rem; }
 
 .verious .vs-heading-5 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -34794,8 +34778,7 @@
   font-size: 2.5rem;
   line-height: 3.5rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  line-height: 1.2; }
+  margin-bottom: 2rem; }
 
 .verious .vs-heading-6 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -34803,8 +34786,7 @@
   font-size: 2rem;
   line-height: 3rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  line-height: 1.2; }
+  margin-bottom: 2rem; }
 
 @media all and (min-width: 0) and (max-width: 575px) {
   .vs-html {

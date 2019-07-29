@@ -11,5 +11,5 @@
 }
 
 @mixin vs-col-start($viewport, $start) {
-  grid-column-start: $start + 1;
+  grid-column-start: $start;
 }
