@@ -1,17 +1,17 @@
 @mixin vs-font($key) {
   $type-system: (
-    font-family: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
-    font-weight: 400
+    font-family:
+      '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'
   );
 
   $type-system-bold: (
-    font-family: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
-    font-weight: 700
+    font-family:
+      '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'
   );
 
   $type-system-mono: (
-    font-family: '"SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;',
-    font-weight: 400
+    font-family:
+      '"SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;'
   );
 
   $fonts: (
@@ -21,5 +21,4 @@
   );
 
   font-family: unquote(map-get(map-get($fonts, $key), font-family));
-  font-weight: map-get(map-get($fonts, $key), font-weight);
 }

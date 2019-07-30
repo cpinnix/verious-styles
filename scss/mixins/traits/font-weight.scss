@@ -1,0 +1,3 @@
+@mixin vs-font-weight($n) {
+  font-weight: $n * 100;
+}
