@@ -15,7 +15,7 @@
     "scss/**/*"
   ],
   "devDependencies": {
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "sanitize.css": "^11.0.0",
     "serve": "^11.1.0"
   }
